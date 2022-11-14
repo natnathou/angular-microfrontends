@@ -5,9 +5,7 @@ on:
     branches:
       - master
     paths:
-      - 'projects/shell/**'
-      - './package.json'
-      - './package-lock.json'
+      - '**'
 
 defaults:
   run:
