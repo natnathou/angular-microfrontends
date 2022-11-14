@@ -1,10 +1,6 @@
 const { shareAll, withModuleFederationPlugin } = require('@angular-architects/module-federation/webpack');
 
-module.exports = withModuleFederationPlugin({
-  output: {
-    filename: '[name].[contenthash].js',
-    publicPath: '/product/latest/'
-  },
+const config = withModuleFederationPlugin({
   name: 'product',
 
   exposes: {
@@ -16,3 +12,9 @@ module.exports = withModuleFederationPlugin({
   },
 
 });
+
+config.output = {
+  publicPath: '/product/latest/'
+}
+
+module.exports = config;
