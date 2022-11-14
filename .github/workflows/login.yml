@@ -8,7 +8,7 @@ on:
       - 'projects/login/**'
       - './package.json'
       - './package-lock.json'
-      - './.github/workflows/login.yml'
+      - '.github/workflows/login.yml'
 
 defaults:
   run:

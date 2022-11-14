@@ -8,7 +8,7 @@ on:
       - 'projects/shell/**'
       - './package.json'
       - './package-lock.json'
-      - './.github/workflows/shell.yml'
+      - '.github/workflows/shell.yml'
 
 defaults:
   run:

@@ -8,7 +8,7 @@ on:
       - 'projects/product/**'
       - './package.json'
       - './package-lock.json'
-      - './.github/workflows/product.yml'
+      - '.github/workflows/product.yml'
 
 defaults:
   run:
