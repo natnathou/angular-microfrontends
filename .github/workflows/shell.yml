@@ -8,6 +8,8 @@ on:
       - 'projects/shell/**'
       - './package.json'
       - './package-lock.json'
+      - './angular.json'
+      - './tsconfig.json'
       - '.github/workflows/shell.yml'
 
 defaults:

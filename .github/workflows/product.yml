@@ -8,6 +8,8 @@ on:
       - 'projects/product/**'
       - './package.json'
       - './package-lock.json'
+      - './angular.json'
+      - './tsconfig.json'
       - '.github/workflows/product.yml'
 
 defaults:
