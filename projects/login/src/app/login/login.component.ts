@@ -1,4 +1,5 @@
 import {Component} from "@angular/core";
+import { AuthLibService } from "auth-lib";
 
 @Component({
   selector: 'app-login',
@@ -6,4 +7,7 @@ import {Component} from "@angular/core";
   styleUrls: ['login.component.scss']
 })
 export class LoginComponent{
+  user = this.service.user;
+  constructor(private service: AuthLibService) { }
+
 }
