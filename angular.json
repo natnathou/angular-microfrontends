@@ -56,8 +56,7 @@
 							],
 							"outputHashing": "all",
 							"extraWebpackConfig": "projects/shell/webpack.prod.config.js",
-              "deployUrl": "/shell/latest/",
-              "outFile": "[name].[contenthash].js"
+              "deployUrl": "/shell/latest/"
             },
 						"development": {
 							"buildOptimizer": false,
@@ -168,8 +167,7 @@
 							],
 							"outputHashing": "all",
 							"extraWebpackConfig": "projects/product/webpack.prod.config.js",
-              "deployUrl": "/product/latest/",
-              "outFile": "[name].[contenthash].js"
+              "deployUrl": "/product/latest/"
 						},
 						"development": {
 							"buildOptimizer": false,
@@ -280,9 +278,8 @@
 							],
 							"outputHashing": "all",
 							"extraWebpackConfig": "projects/login/webpack.prod.config.js",
-              "deployUrl": "/login/latest/",
-              "outFile": "[name].[contenthash].js"
-            },
+              "deployUrl": "/login/latest/"
+						},
 						"development": {
 							"buildOptimizer": false,
 							"optimization": false,
