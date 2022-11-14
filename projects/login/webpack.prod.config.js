@@ -1,6 +1,6 @@
 const { shareAll, withModuleFederationPlugin } = require('@angular-architects/module-federation/webpack');
 
-const config = withModuleFederationPlugin({
+module.exports = withModuleFederationPlugin({
   name: 'login',
 
   exposes: {
@@ -13,8 +13,3 @@ const config = withModuleFederationPlugin({
 
 });
 
-config.output = {
-  publicPath: '/login/latest/'
-}
-
-module.exports = config;
