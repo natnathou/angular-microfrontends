@@ -10,7 +10,7 @@
     "build-shell": "ng build shell",
     "start-login": "ng serve login",
     "start-product": "ng serve product",
-    "start-shell": "ng build shell",
+    "start-shell": "ng serve shell -o",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js"
