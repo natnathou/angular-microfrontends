@@ -3,8 +3,8 @@ const { shareAll, withModuleFederationPlugin } = require('@angular-architects/mo
 module.exports = withModuleFederationPlugin({
 
   remotes: {
-    "product": "https://d2mj03xisnf2g8.cloudfront.net/product/latest/remoteEntry.js",
-    "login": "https://d2mj03xisnf2g8.cloudfront.net/login/latest/remoteEntry.js",
+    "product": "http://localhotst:4202/remoteEntry.js",
+    "login": "http://localhotst:4201/remoteEntry.js",
   },
 
   shared: {
